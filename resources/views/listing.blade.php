@@ -2,5 +2,5 @@
     {{$listing['title']}}
 </h2>
 <p>
-    {{$listing['discription']}}
+    {{$listing['description']}}
 </p>
