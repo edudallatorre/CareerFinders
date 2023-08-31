@@ -35,14 +35,20 @@
             <ul class="flex space-x-6 mr-6 text-lg">
                 @auth
                 <li>
-                    <span class="font-bold uppercase">
-                        Welcome {{auth()->user()->name}}
-                    </span>
+                  <span class="font-bold uppercase">
+                    Welcome {{auth()->user()->name}}
+                  </span>
                 </li>
                 <li>
-                    <a href="/listings/manage" class="hover:text-laravel"
-                        ><i class="fa-solid fa-gear"></i> Manage Listings</a
-                    >
+                  <a href="/listings/manage" class="hover:text-laravel"><i class="fa-solid fa-chart-bar"></i> Manage Listings</a>
+                </li>
+                <li>
+                  <form class="inline" method="POST" action="/logout">
+                    @csrf
+                    <button type="submit">
+                      <i class="fa-solid fa-sign-out"></i> Logout
+                    </button>
+                  </form>
                 </li>
                 @else
                 <li>
@@ -51,7 +57,7 @@
                     >
                 </li>
                 <li>
-                    <a href="login.html" class="hover:text-laravel"
+                    <a href="/login" class="hover:text-laravel"
                         ><i class="fa-solid fa-arrow-right-to-bracket"></i>
                         Login</a
                     >
