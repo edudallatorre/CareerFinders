@@ -1,64 +1,40 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="public/images/career_finders.png" width="400"></a></p>
 
-## About Laravel
+# Job Board Website
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Overview
+This project is a Job Board website developed using Laravel, a robust PHP web framework, with a stack of modern technologies to provide a seamless and user-friendly job posting and job search experience. The website is designed to connect job seekers with employers by allowing them to post and search for job listings.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Key Technologies Used
+- **Laravel:** The project's foundation is built on Laravel, a highly popular PHP framework known for its elegant syntax and powerful features. Laravel provides a secure and efficient backend for handling user authentication, job posting, and job search functionalities.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+- **Alpine.js:** Alpine.js is utilized for adding dynamic, client-side interactivity to the website. It enables features like live search and filtering of job listings, enhancing the user experience.
 
-## Learning Laravel
+- **Tailwind CSS:** Tailwind CSS is the chosen UI framework for this project, offering a utility-first approach to styling. It ensures the website looks visually appealing and responsive on various devices.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+- **Font Awesome:** Font Awesome is used to integrate icons, providing visual cues and enhancing the overall design of the website.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+- **Lodash:** Lodash is a JavaScript utility library that assists in handling data manipulation and simplifying complex tasks, contributing to the efficiency and functionality of the project.
 
-## Laravel Sponsors
+## Additional Technologies
+- **Google Font API:** Google Fonts are incorporated to improve the website's typography, making content more readable and aesthetically pleasing.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+- **CDN Integration (Cloudflare, cdnjs, Unpkg):** Content Delivery Networks (CDNs) are leveraged to ensure fast and reliable content delivery, optimizing website performance.
 
-### Premium Partners
+- **Clockwork:** Clockwork is used for debugging and profiling, aiding developers in diagnosing and resolving issues efficiently during development.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+## Project Features
+- **User Registration and Authentication:** Job seekers and employers can register and log in to manage their profiles and job listings.
 
-## Contributing
+- **Job Posting:** Employers can post job listings, providing detailed information about job roles, requirements, and application instructions.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+- **Job Search:** Job seekers can search for jobs using various filters such as location, category, and keywords, thanks to the dynamic search functionality powered by Alpine.js.
 
-## Code of Conduct
+- **Responsive Design:** Tailwind CSS ensures that the website is fully responsive, offering a seamless experience on desktop and mobile devices.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+- **Performance Optimization:** CDNs, Google Fonts API, and other performance enhancements are implemented to guarantee fast loading times.
 
-## Security Vulnerabilities
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
